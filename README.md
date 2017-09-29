@@ -37,7 +37,7 @@ Certificat **Intermédiation bancaire** ("loi Willems") - Febelfin Academy
 
 # Objectif / Doel
 
-**Rigoureux** , **entreprenant** et **flexible** , je suis passionné d'**informatique** et
+**Rigoureux**, **entreprenant** et **flexible**, je suis passionné d'**informatique** et
 possède le sens du service aux clients. Mon objectif est de remplir **une
-fonction dynamique et évolutive** , au sein d'une **équipe enrichissante et
-conviviale** .
+fonction dynamique et évolutive**, au sein d'une **équipe enrichissante et
+conviviale**.
