@@ -1,4 +1,4 @@
-# CV Of Willem Heremans
+# CV of Willem Heremans
 
 # Formation / Opleiding
 
