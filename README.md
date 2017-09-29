@@ -3,8 +3,11 @@
 # Formation / Opleiding
 
 Certificat **Intermédiation bancaire** ("loi Willems") - Febelfin Academy
+
 **Photographie** - INRACI (Institut de radioélectricité et cinématographie)
+
 **Atelier d'écriture** - Université Européenne d'Écriture
+
 **eBook and web developer** - HTML, CSS, Javascript
 
 # Expériences / Werkervaring
