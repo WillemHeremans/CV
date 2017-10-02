@@ -23,6 +23,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("button.trois").click(function(){
+        $("p").toggle();
+    });
+});
+
 </script>
 
 
@@ -57,6 +63,7 @@ $(document).ready(function(){
 
 <button>Hide</button>
 <button class="two">UnHide</button>
+<button class="trois">toggle</button>
 
 <h1 class="first">&nbsp;</h1>
 <h1 class="first" id="un">Formation / Opleiding</h1>
