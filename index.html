@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="web,développeur,dev,developper,app,application" name="keywords"/>
+	<meta content="Freelance web developper" name="description"/>
+	<meta content="Willem Heremans" name="author"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+  	<link rel="stylesheet" href="./assets/css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("button.two").click(function(){
+        $("p").show();
+    });
+});
+
+</script>
+
+
+
+<title>CV de Willem</title>
+</head>
+
+<body bgcolor="#E6E6FA">
+
+  <div id="Formation" class="tabcontent">
+ <h3>Formation</h3>
+</div>
+
+<div id="Expériences" class="tabcontent">
+ <h3>Expériences</h3>
+</div>
+
+<div id="Langues" class="tabcontent">
+ <h3>Langues</h3>
+</div>
+
+<div class="tabcontent">
+ <h3>Objectif</h3>
+</div>
+
+
+
+<button class="tablink" onclick="openCity('Formation', this, 'red')" id="defaultOpen">Formation</button>
+<button class="tablink" onclick="openCity('Expériences', this, 'green')">Expériences</button>
+<button class="tablink" onclick="openCity('Langues', this, 'blue')">Langues</button>
+<button class="tablink" onclick="openCity('Objectif', this, 'orange')">Objectif</button>
+
+<button>Hide</button>
+<button class="two">UnHide</button>
+
+<h1 class="first">&nbsp;</h1>
+<h1 class="first" id="un">Formation / Opleiding</h1>
+<h1 class="second">&nbsp;</h1>
+
+  <p>Certificat <b>Intermédiation bancaire</b> ("loi Willems") - Febelfin Academy</p>
+  <p><b>Photographie</b> - INRACI (Institut de radioélectricité et cinématographie)</p>
+  <p><b>Atelier d'écriture</b> - Université Européenne d'Écriture</p>
+  <p><b>eBook and web developer</b> - HTML, CSS, Javascript</p>
+
+<h1 class="first">&nbsp;</h1>
+<h1>Expériences / Werkervaring</h1>
+<h1 class="second">&nbsp;</h1>
+  <p><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;: - Econocom</p>
+  <p><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;: - Belfius</p>
+  <p><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;: - GFK</p>
+  <p><b>eBook developer and Writer</b> <i>2012/2013</i>&nbsp;: - Numéritérature</p>
+  <p><b>eBook developer</b> <i>2009/2013</i>&nbsp;: - Studio C1C4</p>
+  <p><b>Winkelbediende</b> <i>2010/2011</i>&nbsp;: - Dreamland</p>
+  <p><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;: - Leen Bakker</p>
+  <p><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;: - Timmermans</p>
+  <p><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;: - La Lorraine</p>
+<h1 class="first">&nbsp;</h1>
+<h1>Langues / Taalkennis</h1>
+<h1 class="second">&nbsp;</h1>
+  <p><b>Français</b> - Excellent</p>
+  <p><b>Nederlands</b> - Goed</p>
+  <p><b>English</b> - Basic</p>
+<h1 class="first">&nbsp;</h1>
+<h1>Objectif / Doel</h1>
+<h1 class="second">&nbsp;</h1>
+  <p><b>Rigoureux</b>, <b>entreprenant</b> et <b>flexible</b>, je suis passionné d'<b>informatique</b> et
+possède le sens du service aux clients. Mon objectif est de remplir <b>une
+fonction dynamique et évolutive</b>, au sein d'une <b>équipe enrichissante et
+conviviale</b>.</p>
+
+
+</body>
+
+</html>
