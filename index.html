@@ -12,19 +12,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    $("button.hide").click(function(){
         $("p").hide();
     });
 });
 
 $(document).ready(function(){
-    $("button.two").click(function(){
+    $("button.show").click(function(){
         $("p").show();
     });
 });
 
 $(document).ready(function(){
-    $("button.trois").click(function(){
+    $("button.toggle").click(function(){
         $("p").toggle();
     });
 });
@@ -61,9 +61,9 @@ $(document).ready(function(){
 <button class="tablink" onclick="openCity('Langues', this, 'blue')">Langues</button>
 <button class="tablink" onclick="openCity('Objectif', this, 'orange')">Objectif</button>
 
-<button>Hide</button>
-<button class="two">UnHide</button>
-<button class="trois">toggle</button>
+<button class="hide">Hide</button>
+<button class="show">UnHide</button>
+<button class="toggle">toggle</button>
 
 <h1 class="first">&nbsp;</h1>
 <h1 class="first" id="un">Formation / Opleiding</h1>
