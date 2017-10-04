@@ -11,3 +11,9 @@
 [color adobe] (https://color.adobe.com/explore/?filter=most-popular&time=month)
 
 [wireframe, outils de modélisation] (https://wireframe.cc/)
+
+[Mastering Markdown] (https://guides.github.com/features/mastering-markdown/)
+
+[Markdown live preview] (http://markdownlivepreview.com/)
+
+ 
