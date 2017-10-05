@@ -19,3 +19,5 @@
 [codepen] (https://codepen.io/#)
 
 [Git on the commandline (new branch...)]  (https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
+
+[Rename branch ] (https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch)
