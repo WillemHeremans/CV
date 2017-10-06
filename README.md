@@ -21,3 +21,91 @@
 [Git on the commandline (new branch...)]  (https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
 
 [Rename branch ] (https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch)
+
+[code for back button] (https://stackoverflow.com/questions/3659782/code-for-back-button)
+
+[Simple chat] (https://code.tutsplus.com/tutorials/how-to-create-a-simple-web-based-chat-application--net-5931)
+
+[Simple chat - source files] (https://pastebin.com/ZhAM4whL)
+
+[Simple chat - source files2] (https://pastebin.com/Hq8ECY8k)
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()
+
+[] ()

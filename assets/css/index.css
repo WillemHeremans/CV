@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto Mono for Powerline.ttf);
+
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+body {
+      height: 100%;
+      margin-bottom:50px;
+}
+
+header {
+	      position: fixed;
+        height: 50px;
+        top: 0;
+        left: 0px;
+        right: 0px;
+        margin: 0px;
+        background-color: rgb(219, 54, 174);
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    background-color: rgb(219, 54, 174);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  color: rgb(219, 54, 174);
+}
+
+h1.first {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(219, 54, 174);
+}
+
+h1.second {
+  margin: 5px;
+  text-align: center;
+  color: rgb(219, 54, 174);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-left: 50px;
+}
+/* Style the tab buttons */
+.tablink {
+    background-color: rgb(219, 54, 174);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    height: 50px;
+    width: 100%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+#Formation {background-color:red;}
+#Expériences {background-color:green;}
+#Langues {background-color:blue;}
+#Objectif {background-color:orange;}
