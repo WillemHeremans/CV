@@ -1,31 +1,37 @@
-function openCity(cityName, elmnt, color) {
-    // Hide all elements with class="tabcontent" by default */
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
+jQuery(document).ready(function(){
 
-    // Remove the background color of all tablinks/buttons
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-    }
 
-    // Show the specific tab content
-    document.getElementById(cityName).style.display = "block";
+	$( "div.details" ).hide();
 
-    // Add the specific color to the button used to open the tab content
-    elmnt.style.backgroundColor = color;
-}
+	$(".fen").on('click',function(){
+		$('.details').hide();
+	});
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
 
-// mes test jquery
+	$("#fen1").on('click',function(){
+		$('#det1').show("fast");
 
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p").hide();
-    });
+	});
+	$("#fen2").on('click',function(){
+		$('#det2').show("fast");
+
+	});
+	$("#fen3").on('click',function(){
+		$('#det3').show("fast");
+
+	});
+
+
+	$("#fen4").on('click',function(){
+		$('#det4').show("fast");
+
+	});
+	$("#fen5").on('click',function(){
+		$('#det5').show("fast");
+
+	});
+	$("#fen6").on('click',function(){
+		$('#det6').show("fast");
+
+	});
 });

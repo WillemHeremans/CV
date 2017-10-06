@@ -30,7 +30,7 @@
 
 [Simple chat - source files2] (https://pastebin.com/Hq8ECY8k)
 
-[] ()
+[Submitting a form by pressing enter without a submit button] (https://stackoverflow.com/questions/477691/submitting-a-form-by-pressing-enter-without-a-submit-button)
 
 [] ()
 
