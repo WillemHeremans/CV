@@ -7,7 +7,7 @@ function loginForm() {
         <p>Please enter your name to continue:</p>
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" />
-        <input type="submit" name="enter" id="enter" value="Enter" />
+        <a href="#chat"><input type="submit" name="enter" id="enter" value="Enter" /></a>
     </form>
     </div>
     ';
@@ -41,10 +41,11 @@ if (isset ( $_GET ['logout'] )) {
 <head>
 <link rel="stylesheet" href="./assets/css/chat.css"/>
 
-<title>Chat - Customer Module</title>
+<title>Chat avec Willem Heremans</title>
 </head>
 <body bgcolor="#E6E6FA">
 
+			
   <?php include 'back-submit-chat.php';?>
 
   <h1 class="first">&nbsp;</h1>
@@ -54,14 +55,21 @@ if (isset ( $_GET ['logout'] )) {
 		loginForm ();
 	} else {
 		?>
+
+
 <div id="wrapper">
 		<div id="menu">
 			<p class="welcome">
 				Welcome, <b><?php echo $_SESSION['name']; ?></b>
 			</p>
+			
+			<p class="logout">
+                <a id="exit" href="#">Exit Chat</a>
+            </p>
 
 			<div style="clear: both"></div>
 		</div>
+		
 		<div id="chatbox"><?php
 		if (file_exists ( "log.html" ) && filesize ( "log.html" ) > 0) {
 			$handle = fopen ( "log.html", "r" );
@@ -77,7 +85,8 @@ if (isset ( $_GET ['logout'] )) {
 				name="submitmsg" type="submit" id="submitmsg" value="send" />
 		</form>
 
-	</div>
+		</div>
+
 	<script type="text/javascript"
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 	<script type="text/javascript">

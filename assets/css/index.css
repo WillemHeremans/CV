@@ -1,8 +1,42 @@
-@font-face {
-    font-family: Roboto;
-    src: url(./assets/fonts/Roboto Mono for Powerline.ttf);
+/* Modal Box */
 
-}
+#modalCheck{
+			display: none;
+		}
+		.modalLayer{
+			display: none;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+		#modalCheck:checked + .modalLayer, #formation:target, #experiences:target, #langues:target, #objectif:target{
+			display: block;
+		}
+		.popup_block{
+			background: #E6E6FA;
+			padding: 20px;
+			border: 10px solid rgb(219, 54, 174);
+			position: relative;
+			margin: 10% auto;
+			width: 60%;
+			box-shadow: 0px 0px 20px #000;
+			border-radius: 10px;
+		}
+		img.btn_close {
+			float: right;
+			margin: -55px -55px 0 0;
+			cursor: pointer;
+		}
+		.button{
+			cursor: pointer;
+			color: blue;
+			text-decoration: underline;
+		}
+		
+/* Modal Box end */
 
 html {
   box-sizing: border-box;
@@ -12,10 +46,11 @@ html {
 body {
       height: 100%;
       margin-bottom:50px;
+      
 }
 
 header {
-	      position: fixed;
+	    position: fixed;
         height: 50px;
         top: 0;
         left: 0px;
@@ -27,6 +62,7 @@ header {
         border: none;
         outline: none;
         cursor: pointer;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, .3);
 
 }
 
@@ -43,6 +79,7 @@ footer {
     border: none;
     outline: none;
     cursor: pointer;
+    box-shadow: 0 0 20px black;
 }
 
 h1 {
@@ -72,6 +109,19 @@ p {
 }
 /* Style the tab buttons */
 .tablink {
+    background-color: rgb(219, 54, 174);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    height: 50px;
+    width: 25%;
+}
+
+.tablink-alone {
     background-color: rgb(219, 54, 174);
     color: white;
     float: left;

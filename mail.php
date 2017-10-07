@@ -14,8 +14,12 @@
 
 
 <body bgcolor="#E6E6FA">
+	
 
-  <?php include 'back-submit-mail.php';?>
+<?php include 'back-submit-mail.php';?>
+
+<h1 class="first">&nbsp;</h1>
+ 
 
   <?php
 // define variables and set to empty values
@@ -69,10 +73,11 @@ function test_input($data) {
 }
 ?>
 
-<h1 class="first">&nbsp;</h1>
 
-  <div class="container">
- <form  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+
+			
+	<form  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
    <span class="error">* </span>
    <label for="fname">Prénom</label>
@@ -111,9 +116,8 @@ function test_input($data) {
 // echo "<br>";
 ?>
 
-</div>
 
-<h1 class="first">&nbsp;</h1>
+
 
 </body>
 

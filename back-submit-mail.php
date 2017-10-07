@@ -18,14 +18,14 @@
 <?php
 
 echo '<header>
-    <a href="#"><button class="tablink" id="back-submit" onclick="history.back();">Back</button></a>
+    <a href="index.php"><button class="tablink-alone" id="back-submit">Back</button></a>
 </header>'
 ?>
 
 <?php
 
 echo '<footer>
-  <button class="tablink" id="back-submit">Submit</button>
+  <button class="tablink-alone" id="back-submit">Submit</button>
 </footer>'
 
 ?>
