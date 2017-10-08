@@ -1,3 +1,22 @@
+@font-face {
+  font-family: Lobster 1.4;
+  src: local("Lobster 1.4"),
+       url(./assets/fonts/Lobster.otf) format("otf");
+  font-weight: bold;
+  font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: Linux Libertine O;
+  src: local("Linux Libertine O"),
+       url(./assets/fonts/LinLibertine_R.otf) format("otf");
+  font-weight: bold;
+  font-weight: normal;
+font-style: normal;
+}
+
+
 #modalCheck{
 			display: none;
 		}
@@ -37,36 +56,71 @@
 /* Modal Box end */
 
 body {
-	font: 12px arial;
-	color: #222;
-	text-align: center;
-	padding: 35px;
+background-image:url('../../assets/images/texture.png');
+background-repeat: ;
+background-position: bottom;
+background-attachment: fixed;
+width:100%;
+height:100%;
+font-family: "Linux Libertine O";
+font-size: 1.2em;
+color: #595959;
+text-align: center;
+padding: 35px;
+}
+
+h1.top {
+margin:5px;
 }
 
 form,p,span {
+font-family: "Linux Libertine O";
 	margin: 0;
 	padding: 0;
 }
 
+b.name {
+font-family: "Lobster 1.4";
+}
+
 input {
-	font: 12px arial;
+font-family: "Linux Libertine O";
+font-size: 1.2em;
+
 }
 
 a {
-	color: #0000FF;
+	color: rgb(219, 54, 174);
+	font-family: "Linux Libertine O";
+font-size: 1.2em;
 	text-decoration: none;
+}
+
+a#exit {
+color: rgb(219, 54, 174);
+font-family: "Linux Libertine O";
+font-size: 1em;
+text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-#wrapper,#loginform {
+#loginform {
 	margin: 0 auto;
 	padding-bottom: 25px;
-	background: #EBF4FB;
-	width: 504px;
-	border: 1px solid #ACD8F0;
+	background: rgba(230, 230, 250, 0.0);
+	width: 80%;
+	border: 0 solid rgb(219, 54, 174);
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding-bottom: 25px;
+	background: rgba(230, 230, 250, 0.0);
+	width: 80%;
+	border: 0 solid rgb(219, 54, 174);
 }
 
 #loginform {
@@ -79,19 +133,25 @@ a:hover {
 
 #chatbox {
 	text-align: left;
-	margin: 0 auto;
+	margin-top:10px;
+	margin-right:10%;
+	margin-left:10%;
 	margin-bottom: 25px;
 	padding: 10px;
-	background: #fff;
-	height: 270px;
-	width: 430px;
-	border: 1px solid #ACD8F0;
+	background: rgba(230, 230, 250, 0.7);
+	height: 330px;
+	width: 80%;
+	border: 0 solid rgb(219, 54, 174);
 	overflow: auto;
 }
 
 #usermsg {
-	width: 395px;
-	border: 1px solid #ACD8F0;
+	width: 80%;
+	border: 0 solid #ACD8F0;
+	background: rgba(230, 230, 250, 0.7);
+	margin-right:10%;
+	margin-left:10%;
+	padding: 10px;
 }
 
 #submit {
@@ -112,6 +172,7 @@ a:hover {
 
 .logout {
 	float: right;
+	margin-right:5%;
 }
 
 .msgln {

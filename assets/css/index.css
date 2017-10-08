@@ -1,3 +1,21 @@
+@font-face {
+  font-family: Lobster 1.4;
+  src: local("Lobster 1.4"),
+       url(./assets/fonts/Lobster.otf) format("otf");
+  font-weight: bold;
+  font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: Linux Libertine O;
+  src: local("Linux Libertine O"),
+       url(./assets/fonts/LinLibertine_R.otf) format("otf");
+  font-weight: bold;
+  font-weight: normal;
+font-style: normal;
+}
+
 /* Modal Box */
 
 #modalCheck{
@@ -16,12 +34,22 @@
 			display: block;
 		}
 		.popup_block{
-			background: #E6E6FA;
+			background: rgba(230, 230, 250, 0.7);
 			padding: 20px;
-			border: 10px solid rgb(219, 54, 174);
+			border: 10px solid rgb(219, 54, 174, 0.4);
 			position: relative;
-			margin: 10% auto;
+			margin: 5% auto;
 			width: 60%;
+			box-shadow: 0px 0px 20px #000;
+			border-radius: 10px;
+		}
+		.popup_block#exp{
+			background: rgba(230, 230, 250, 0.7);
+			padding: 20px;
+			border: 10px solid rgb(219, 54, 174, 0.4);
+			position: relative;
+			margin: 5% auto;
+			width: 80%;
 			box-shadow: 0px 0px 20px #000;
 			border-radius: 10px;
 		}
@@ -39,14 +67,17 @@
 /* Modal Box end */
 
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 
 }
 
 body {
-      height: 100%;
-      margin-bottom:50px;
-      
+background-image:url('../../assets/images/texture.png');
+background-repeat: ;
+background-position: bottom;
+background-attachment: fixed;
+width:100%;
+height:100%; 
 }
 
 header {
@@ -95,48 +126,84 @@ h1.first {
 }
 
 h1.second {
-  margin: 5px;
-  text-align: center;
-  color: rgb(219, 54, 174);
+font-family: "Lobster 1.4";
+font-size: 5.5em;
+text-align: center;
+margin-top: 200px;
+color: rgb(219, 54, 174);
+}
+
+h2.second {
+font-family: "Lobster 1.4";
+margin-bottom: 100px;
+text-align: center;
+color: grey;
 }
 
 a {
   text-decoration: none;
 }
 
+a.croix {
+  text-decoration: none;
+  color: rgb(219, 54, 174);
+  font-size: 1.5em;
+}
+
 p {
   margin-left: 50px;
+  font-family: "Linux Libertine O";
+  font-size: 2em;
+}
+
+p.experiences {
+  margin-left: 50px;
+  font-family: "Linux Libertine O";
+  font-size: 2em;
+  line-height: 0.7em;
+}
+
+b {
+color: rgb(219, 54, 174);
 }
 /* Style the tab buttons */
 .tablink {
     background-color: rgb(219, 54, 174);
-    color: white;
+    color: #595959;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 17px;
+    font-family: "Lobster 1.4";
+    font-size: 20px;
     height: 50px;
     width: 25%;
 }
 
 .tablink-alone {
     background-color: rgb(219, 54, 174);
-    color: white;
+    color: #595959;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 17px;
+    font-family: "Lobster 1.4";
+    font-size: 25px;
     height: 50px;
     width: 100%;
 }
 
 /* Change background color of buttons on hover */
 .tablink:hover {
+    background-color: #595959;
+    color: rgb(219, 54, 174);
+}
+
+.tablink-alone:hover {
     background-color: #777;
+    color: rgb(219, 54, 174);
 }
 
 /* Set default styles for tab content */
