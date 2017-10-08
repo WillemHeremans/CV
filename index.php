@@ -12,35 +12,35 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-    $("a.toggle").click(function(){
-        $("p").toggle();
-    });
-});
+//$(document).ready(function(){
+//    $("a.toggle").click(function(){
+//        $("p").toggle();
+//    });
+//});
 
-$(document).ready(function(){
-    $("a.toggle1").click(function(){
-        $("p.toggle1").toggle();
-    });
-});
+//$(document).ready(function(){
+//    $("a.toggle1").click(function(){
+//        $("p.toggle1").toggle();
+//    });
+//});
 
-$(document).ready(function(){
-    $("a.toggle2").click(function(){
-        $("p.toggle2").toggle();
-    });
-});
+//$(document).ready(function(){
+//    $("a.toggle2").click(function(){
+//        $("p.toggle2").toggle();
+ //   });
+//});
 
-$(document).ready(function(){
-    $("a.toggle3").click(function(){
-        $("p.toggle3").toggle();
-    });
-});
+//$(document).ready(function(){
+ //   $("a.toggle3").click(function(){
+ //       $("p.toggle3").toggle();
+   // });
+//});
 
-$(document).ready(function(){
-    $("a.toggle4").click(function(){
-        $("p.toggle4").toggle();
-    });
-});
+//$(document).ready(function(){
+  //  $("a.toggle4").click(function(){
+  //      $("p.toggle4").toggle();
+ //   });
+//});
 
 // $(document).ready(function(){
     // $("a.show").click(function(){
@@ -63,17 +63,19 @@ $(document).ready(function(){
 
 <?php include 'header-footer.php';?>
 
-  <h1 class="first">&nbsp;</h1>
+
+  
 
 <!-- <a class="show"> &#10004; </a> <a class="hide"> &#10007;  </a> <a class="toggle1">&#9851;</a> -->
 
 
 
-<h1 class="second">&nbsp;</h1>
+<h1 class="second">Willem Heremans</h1>
+	<h2 class="second">Web developer and more</h2>
 
 	<div class="modalLayer" id="formation">
 		<div class="popup_block">
-			<a href="#noWhere">&#10007</a>
+			<a href="#noWhere" class="croix">&#10006;</a>
 				<p class="toggle1">Certificat <b>Intermédiation bancaire</b> ("loi Willems") - Febelfin Academy</p>
 				<p class="toggle1"><b>Photographie</b> - INRACI (Institut de radioélectricité et cinématographie)</p>
 				<p class="toggle1"><b>Atelier d'écriture</b> - Université Européenne d'Écriture</p>
@@ -85,18 +87,18 @@ $(document).ready(function(){
 
 
 <div class="modalLayer" id="experiences">
-	<div class="popup_block">
-		<a href="#noWhere">&#9851;</a>
+	<div class="popup_block" id="exp">
+		<a href="#noWhere" class="croix">&#10006;</a>
 
-  <p class="toggle2"><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;: - Econocom</p>
-  <p class="toggle2"><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;: - Belfius</p>
-  <p class="toggle2"><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;: - GFK</p>
-  <p class="toggle2"><b>eBook developer and Writer</b> <i>2012/2013</i>&nbsp;: - Numéritérature</p>
-  <p class="toggle2"><b>eBook developer</b> <i>2009/2013</i>&nbsp;: - Studio C1C4</p>
-  <p class="toggle2"><b>Winkelbediende</b> <i>2010/2011</i>&nbsp;: - Dreamland</p>
-  <p class="toggle2"><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;: - Leen Bakker</p>
-  <p class="toggle2"><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;: - Timmermans</p>
-  <p class="toggle2"><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;: - La Lorraine</p>
+  <p class="experiences"><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;: - Econocom</p>
+  <p class="experiences"><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;: - Belfius</p>
+  <p class="experiences"><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;: - GFK</p>
+  <p class="experiences"><b>eBook developer and Writer</b> <i>2012/2013</i>&nbsp;: - Numéritérature</p>
+  <p class="experiences"><b>eBook developer</b> <i>2009/2013</i>&nbsp;: - Studio C1C4</p>
+  <p class="experiences"><b>Winkelbediende</b> <i>2010/2011</i>&nbsp;: - Dreamland</p>
+  <p class="experiences"><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;: - Leen Bakker</p>
+  <p class="experiences"><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;: - Timmermans</p>
+  <p class="experiences"><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;: - La Lorraine</p>
 
 
 </div>
@@ -105,7 +107,7 @@ $(document).ready(function(){
 
 <div class="modalLayer" id="langues">
 	<div class="popup_block">
-		<a href="#noWhere">&#9851;</a>
+		<a href="#noWhere" class="croix">&#10006;</a>
 
   <p class="toggle3"><b>Français</b> - Excellent</p>
   <p class="toggle3"><b>Nederlands</b> - Goed</p>
@@ -117,22 +119,15 @@ $(document).ready(function(){
 
 <div class="modalLayer" id="objectif">
 	<div class="popup_block">
-		<a href="#noWhere">&#9851;</a>
+		<a href="#noWhere" class="croix">&#10006;</a>
 
   <p class="toggle4"><b>Rigoureux</b>, <b>entreprenant</b> et <b>flexible</b>, je suis passionné d'<b>informatique</b> et
 possède le sens du service aux clients. Mon objectif est de remplir <b>une
 fonction dynamique et évolutive</b>, au sein d'une <b>équipe enrichissante et
 conviviale</b>.</p>
 
-
 </div>
 </div>
-
-
-
-
-<h1 class="second">&nbsp;</h1>
-
 
 </body>
 

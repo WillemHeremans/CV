@@ -92,7 +92,7 @@ function test_input($data) {
    <input type="text" id="mail" name="email" placeholder="Votre email...">
 
 
-   <label for="country">Country</label>
+   <label for="country">Pays</label>
    <select id="country" name="country">
      <option value="australia">Belgium</option>
      <option value="usa">USA</option>
@@ -101,19 +101,21 @@ function test_input($data) {
 
    <label for="subject">Sujet</label>
    <textarea id="subject" name="subject" placeholder="Ecrivez quelque chose..." style="height:200px"></textarea>
+   
+   <input type="submit" value="Submit">
 
  </form>
 
 
 <?php
-//echo $fname;
-//echo "<br>";
-//echo $lname;
-//echo "<br>";
-// echo $email;
-// echo "<br>";
-// echo $subject;
-// echo "<br>";
+echo $fname;
+echo "<br>";
+echo $lname;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $subject;
+echo "<br>";
 ?>
 
 
