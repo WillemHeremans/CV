@@ -7,54 +7,8 @@
 	<meta content="Freelance web developper" name="description"/>
 	<meta content="Willem Heremans" name="author"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  	<link rel="stylesheet" href="./assets/css/index.css"/>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-//$(document).ready(function(){
-//    $("a.toggle").click(function(){
-//        $("p").toggle();
-//    });
-//});
-
-//$(document).ready(function(){
-//    $("a.toggle1").click(function(){
-//        $("p.toggle1").toggle();
-//    });
-//});
-
-//$(document).ready(function(){
-//    $("a.toggle2").click(function(){
-//        $("p.toggle2").toggle();
- //   });
-//});
-
-//$(document).ready(function(){
- //   $("a.toggle3").click(function(){
- //       $("p.toggle3").toggle();
-   // });
-//});
-
-//$(document).ready(function(){
-  //  $("a.toggle4").click(function(){
-  //      $("p.toggle4").toggle();
- //   });
-//});
-
-// $(document).ready(function(){
-    // $("a.show").click(function(){
-        // $("p").show();
-//     });
-// });
-
-// $(document).ready(function(){
-//     $("a.hide").click(function(){
-//         $("p").hide();
-//     });
-// });
-
-</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/index.css"/>
 
 <title>CV de Willem</title>
 </head>
@@ -63,15 +17,14 @@
 
 <?php include 'header-footer.php';?>
 
-
-  
-
-<!-- <a class="show"> &#10004; </a> <a class="hide"> &#10007;  </a> <a class="toggle1">&#9851;</a> -->
-
-
+<!-- home -->
 
 <h1 class="second">Willem Heremans</h1>
 	<h2 class="second">Web developer and more</h2>
+
+<!-- home end -->
+
+<!-- Content of popup Formation -->
 
 	<div class="modalLayer" id="formation">
 		<div class="popup_block">
@@ -82,14 +35,12 @@
 				<p class="toggle1"><b>eBook and web developer</b> - HTML, CSS, Javascript</p>
 		</div>
 	</div>
-  <!-- <a class="show"> &#10004; </a> <a class="hide"> &#10007; </a> <a class="toggle2"> &#9851; </a> -->
 
-
+<!-- Content of popup Expériences -->
 
 <div class="modalLayer" id="experiences">
 	<div class="popup_block" id="exp">
 		<a href="#noWhere" class="croix">&#10006;</a>
-
   <p class="experiences"><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;: - Econocom</p>
   <p class="experiences"><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;: - Belfius</p>
   <p class="experiences"><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;: - GFK</p>
@@ -99,33 +50,29 @@
   <p class="experiences"><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;: - Leen Bakker</p>
   <p class="experiences"><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;: - Timmermans</p>
   <p class="experiences"><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;: - La Lorraine</p>
-
-
 </div>
 </div>
- <!-- <a class="show"> &#10004; </a> <a class="hide"> &#10007; </a> -->
+
+<!-- Content of popup Langues -->
 
 <div class="modalLayer" id="langues">
 	<div class="popup_block">
 		<a href="#noWhere" class="croix">&#10006;</a>
-
   <p class="toggle3"><b>Français</b> - Excellent</p>
   <p class="toggle3"><b>Nederlands</b> - Goed</p>
   <p class="toggle3"><b>English</b> - Basic</p>
+</div>
+</div>
 
-</div>
-</div>
-   <!-- <a class="show"> &#10004; </a> <a class="hide"> &#10007; </a> -->
+<!-- Content of popup Objectif -->
 
 <div class="modalLayer" id="objectif">
 	<div class="popup_block">
 		<a href="#noWhere" class="croix">&#10006;</a>
-
   <p class="toggle4"><b>Rigoureux</b>, <b>entreprenant</b> et <b>flexible</b>, je suis passionné d'<b>informatique</b> et
 possède le sens du service aux clients. Mon objectif est de remplir <b>une
 fonction dynamique et évolutive</b>, au sein d'une <b>équipe enrichissante et
 conviviale</b>.</p>
-
 </div>
 </div>
 

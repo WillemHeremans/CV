@@ -5,9 +5,16 @@ function loginForm() {
     <div id="loginform">
     <form action="chat.php" method="post">
         <p>Please enter your name to continue:</p>
-        <label for="name">Name:</label>
+
         <input type="text" name="name" id="name" />
-        <a href="#chat"><input type="submit" name="enter" id="enter" value="Enter" /></a>
+
+				<footer>
+
+				  <form name="message" action="">
+				    <a href="#chat"><input class="tablink-alone" type="submit" name="enter" id="enter" value="Submit" /></a>
+
+				  </form>
+				</footer>
     </form>
     </div>
     ';
@@ -20,7 +27,7 @@ if (isset ( $_POST ['enter'] )) {
 		fwrite ( $fp, "<div class='msgln'><i>User " . $_SESSION ['name'] . " has joined the chat session.</i><br></div>" );
 		fclose ( $fp );
 	} else {
-		echo '<span class="error">Please type in a name</span>';
+		echo '';
 	}
 }
 
@@ -40,12 +47,13 @@ if (isset ( $_GET ['logout'] )) {
 <html>
 <head>
 <link rel="stylesheet" href="./assets/css/chat.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Chat avec Willem Heremans</title>
 </head>
 <body bgcolor="#E6E6FA">
 
-			
+
   <?php include 'back-submit-chat.php';?>
 
   <h1 class="top">&nbsp;</h1>
@@ -62,14 +70,14 @@ if (isset ( $_GET ['logout'] )) {
 			<p class="welcome">
 				Welcome, <b class="name"><?php echo $_SESSION['name']; ?></b>
 			</p>
-			
+
 			<p class="logout">
                 <a id="exit" href="#">&#10006;</a>
             </p>
 
 			<div style="clear: both"></div>
 		</div>
-		
+
 		<div id="chatbox"><?php
 		if (file_exists ( "log.html" ) && filesize ( "log.html" ) > 0) {
 			$handle = fopen ( "log.html", "r" );
@@ -81,8 +89,15 @@ if (isset ( $_GET ['logout'] )) {
 		?></div>
 
 		<form name="message" action="">
-			<input name="usermsg" type="text" id="usermsg" size="63" /> 
-			
+			<input name="usermsg" type="text" id="usermsg" size="63" />
+			<footer>
+
+			  <form name="message" action="">
+			    <input class="tablink-alone" name="submitmsg" type="submit" id="submitmsg" value="Submit" />
+
+			  </form>
+			</footer>
+
 		</form>
 
 		</div>

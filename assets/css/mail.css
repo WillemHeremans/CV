@@ -1,44 +1,20 @@
+//* Fonts */
+@font-face {
+font-family: "Lobster";
+src: url(../../assets/fonts/Lobster.eot); /* Pour IE9 Compat mode */
+src: local('Lobster'), local('Lobster-Regular'),
+     url(../../assets/fonts/Lobster.eot?) format('eot'),
+     url(../../assets/fonts/Lobster.woff) format('woff'),
+     url(../../assets/fonts/Lobster.otf) format("otf"),
+     url(../../assets/fonts/Lobster.ttf) format("truetype");
 
-#modalCheck{
-			display: none;
-		}
-		.modalLayer{
-			display: none;
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			background-color: rgba(0, 0, 0, 0.5);
-		}
-		#modalCheck:checked + .modalLayer, #formation:target, #experiences:target, #langues:target, #objectif:target{
-			display: block;
-		}
-		.popup_block{
-			background: #E6E6FA;
-			padding: 20px;
-			border: 10px solid rgb(219, 54, 174);
-			position: relative;
-			margin: 10% auto;
-			width: 60%;
-			box-shadow: 0px 0px 20px #000;
-			border-radius: 10px;
-		}
-		img.btn_close {
-			float: right;
-			margin: -55px -55px 0 0;
-			cursor: pointer;
-		}
-		.button{
-			cursor: pointer;
-			color: blue;
-			text-decoration: underline;
-		}
-		
-/* Modal Box end */
+}
 
-
-
+@font-face {
+font-family: Linux Libertine O;
+src: local("Linux Libertine O"),
+     url(../../assets/fonts/LinLibertine_R.otf) format("otf");
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -52,10 +28,6 @@ input[type=text], select, textarea {
    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Add a background color and some padding around the form 
-.container {
-   border-radius: 5px;
-   background-color: #E6E6FA;
-   padding: 20px;
+.error {
+	color: rgb(219, 54, 174);
 }
-*/

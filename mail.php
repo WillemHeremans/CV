@@ -7,19 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="./assets/css/mail.css"/>
-  <style>
-.error {color: rgb(219, 54, 174);}
-</style>
 </head>
 
-
 <body bgcolor="#E6E6FA">
-	
 
 <?php include 'back-submit-mail.php';?>
 
 <h1 class="first">&nbsp;</h1>
- 
 
   <?php
 // define variables and set to empty values
@@ -73,26 +67,23 @@ function test_input($data) {
 }
 ?>
 
+<!-- Form content -->
 
-
-
-			
 	<form  method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-
-   <span class="error">* </span>
+   <span class="error">*<?php echo $fnameErr;?></span>
    <label for="fname">Prénom</label>
    <input type="text" id="fname" name="fname" placeholder="Votre prénom...">
-   <span class="error">*</span>
 
+   <span class="error">*<?php echo $lnameErr;?></span>
    <label for="lname">Nom</label>
    <input type="text" id="lname" name="lname" placeholder="Votre nom...">
-   <span class="error">*</span>
 
+   <span class="error">*<?php echo $emailErr;?></span>
    <label for="mail">Email</label>
    <input type="text" id="mail" name="email" placeholder="Votre email...">
 
-
    <label for="country">Pays</label>
+
    <select id="country" name="country">
      <option value="australia">Belgium</option>
      <option value="usa">USA</option>
@@ -100,12 +91,9 @@ function test_input($data) {
    </select>
 
    <label for="subject">Sujet</label>
+
    <textarea id="subject" name="subject" placeholder="Ecrivez quelque chose..." style="height:200px"></textarea>
-   
-   <input type="submit" value="Submit">
-
  </form>
-
 
 <?php
 echo $fname;
@@ -118,9 +106,5 @@ echo $subject;
 echo "<br>";
 ?>
 
-
-
-
 </body>
-
 </html>
