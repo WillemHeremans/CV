@@ -28,7 +28,7 @@
 
 	<div class="modalLayer" id="formation">
 		<div class="popup_block">
-			<a href="#noWhere" class="croix">&#10006;</a>
+			<a href="#home" class="croix">&#10006;</a>
 				<p class="toggle1">Certificat <b>Intermédiation bancaire</b> ("loi Willems") - Febelfin Academy</p>
 				<p class="toggle1"><b>Photographie</b> - INRACI (Institut de radioélectricité et cinématographie)</p>
 				<p class="toggle1"><b>Atelier d'écriture</b> - Université Européenne d'Écriture</p>
@@ -40,16 +40,16 @@
 
 <div class="modalLayer" id="experiences">
 	<div class="popup_block" id="exp">
-		<a href="#noWhere" class="croix">&#10006;</a>
-  <p class="experiences"><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;: - Econocom</p>
-  <p class="experiences"><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;: - Belfius</p>
-  <p class="experiences"><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;: - GFK</p>
-  <p class="experiences"><b>eBook developer and Writer</b> <i>2012/2013</i>&nbsp;: - Numéritérature</p>
-  <p class="experiences"><b>eBook developer</b> <i>2009/2013</i>&nbsp;: - Studio C1C4</p>
-  <p class="experiences"><b>Winkelbediende</b> <i>2010/2011</i>&nbsp;: - Dreamland</p>
-  <p class="experiences"><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;: - Leen Bakker</p>
-  <p class="experiences"><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;: - Timmermans</p>
-  <p class="experiences"><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;: - La Lorraine</p>
+		<a href="#home" class="croix">&#10006;</a>
+  <p class="experiences"><b>Junior System Engineers</b> <i>2017/2017</i>&nbsp;-&nbsp;Econocom</p>
+  <p class="experiences"><b>Conseiller E-banking</b> <i>2015/2017</i>&nbsp;-&nbsp;Belfius</p>
+  <p class="experiences"><b>Enquêteur téléphonique</b> <i>2013/2015</i>&nbsp;-&nbsp;GFK</p>
+  <p class="experiences"><b>eBook developer and Writer</b> <i>2012/2013</i>&nbsp;-&nbsp;Numéritérature</p>
+  <p class="experiences"><b>eBook developer</b> <i>2009/2013</i>&nbsp;-&nbsp;Studio C1C4</p>
+  <p class="experiences"><b>Winkelbediende</b> <i>2010/2011</i>&nbsp;-&nbsp;Dreamland</p>
+  <p class="experiences"><b>Winkelbediende</b> <i>2009/2010</i>&nbsp;-&nbsp;Leen Bakker</p>
+  <p class="experiences"><b>Ouvrier de production, Productie arbeider</b> <i>2008/2009</i>&nbsp;-&nbsp;Timmermans</p>
+  <p class="experiences"><b>Productie arbeider</b> <i>2008/2009</i>&nbsp;-&nbsp;La Lorraine</p>
 </div>
 </div>
 
@@ -57,10 +57,10 @@
 
 <div class="modalLayer" id="langues">
 	<div class="popup_block">
-		<a href="#noWhere" class="croix">&#10006;</a>
-  <p class="toggle3"><b>Français</b> - Excellent</p>
-  <p class="toggle3"><b>Nederlands</b> - Goed</p>
-  <p class="toggle3"><b>English</b> - Basic</p>
+		<a href="#home" class="croix">&#10006;</a>
+  <p class="toggle3"><b>Français</b>&nbsp;-&nbsp;Excellent</p>
+  <p class="toggle3"><b>Nederlands</b>&nbsp;-&nbsp;Goed</p>
+  <p class="toggle3"><b>English</b>&nbsp;-&nbsp;Basic</p>
 </div>
 </div>
 
@@ -68,7 +68,7 @@
 
 <div class="modalLayer" id="objectif">
 	<div class="popup_block">
-		<a href="#noWhere" class="croix">&#10006;</a>
+		<a href="#home" class="croix">&#10006;</a>
   <p class="toggle4"><b>Rigoureux</b>, <b>entreprenant</b> et <b>flexible</b>, je suis passionné d'<b>informatique</b> et
 possède le sens du service aux clients. Mon objectif est de remplir <b>une
 fonction dynamique et évolutive</b>, au sein d'une <b>équipe enrichissante et

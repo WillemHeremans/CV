@@ -70,11 +70,9 @@ if (isset ( $_GET ['logout'] )) {
 			<p class="welcome">
 				Welcome, <b class="name"><?php echo $_SESSION['name']; ?></b>
 			</p>
-
 			<p class="logout">
                 <a id="exit" href="#">&#10006;</a>
             </p>
-
 			<div style="clear: both"></div>
 		</div>
 
@@ -90,20 +88,20 @@ if (isset ( $_GET ['logout'] )) {
 
 		<form name="message" action="">
 			<input name="usermsg" type="text" id="usermsg" size="63" />
+			<!-- Footer menu -->
 			<footer>
-
 			  <form name="message" action="">
 			    <input class="tablink-alone" name="submitmsg" type="submit" id="submitmsg" value="Submit" />
-
 			  </form>
 			</footer>
-
+			<!-- Footer menu -->
 		</form>
-
 		</div>
 
 	<script type="text/javascript"
-		src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js">
+		</script>
+
 	<script type="text/javascript">
 // jQuery Document
 $(document).ready(function(){

@@ -32,8 +32,8 @@ echo '<header>
 echo '<footer>
   <a href="mail.php"><button class="tablink">Mail</button></a>
   <a href="chat.php"><button class="tablink">Chat</button></a>
-  <button class="tablink">Phone</button>
-  <button class="tablink">More</button>
+  <a href="phone.php"><button class="tablink">Phone</button></a>
+  <a href="#"><button class="tablink">More</button></a>
 </footer>'
 
 ?>
