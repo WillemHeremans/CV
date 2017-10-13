@@ -8,12 +8,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="./assets/css/phone.css"/>
+  <link rel="stylesheet" href="./assets/css/index.css"/>
 
   <script src="https://simplewebrtc.com/latest-v2.js"></script>
 
 </head>
 
 <body bgcolor="#E6E6FA">
+
+  <?php include 'back-submit-mail.php';?>
+
   <video height="300" id="localVideo"></video>
           <div id="remotesVideos"></div>
 
