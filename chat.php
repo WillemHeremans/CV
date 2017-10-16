@@ -6,7 +6,7 @@ function loginForm() {
     <form action="chat.php" method="post">
         <p>Please enter your name to continue:</p>
 
-        <input type="text" name="name" id="name" />
+        <input type="text" name="name" id="name" autofocus />
 
 				<footer>
 
@@ -87,7 +87,7 @@ if (isset ( $_GET ['logout'] )) {
 		?></div>
 
 		<form name="message" action="">
-			<input name="usermsg" type="text" id="usermsg" size="63" />
+			<input name="usermsg" type="text" id="usermsg" size="63" autofocus />
 			<!-- Footer menu -->
 			<footer>
 			  <form name="message" action="">
