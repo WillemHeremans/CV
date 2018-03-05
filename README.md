@@ -2,6 +2,6 @@
 
 
 
-[Go to] (index.php)
+
 
 
